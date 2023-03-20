@@ -1,0 +1,23 @@
+##########local########
+GET http://localhost:9321/local_hello
+
+###
+GET http://localhost:9321/local_version
+
+
+########### feign ###########
+###
+GET http://localhost:9321/hello
+
+GET http://localhost:9321/simple
+
+GET http://localhost:9321/version
+
+
+########### cluster ###########
+
+GET http://dev.simple-fe.127.0.0.1.sslip.io:30000/simple
+
+GET http://dev.simple-fe.127.0.0.1.sslip.io:30000/hello
+
+

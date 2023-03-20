@@ -1,0 +1,31 @@
+##############
+### local
+##############
+
+server:
+  port: 9321
+  
+api:
+  simple:
+    url: http://localhost:9320/api
+
+feign:
+  circuitbreaker:  # feign에서도 circuit breaker를 적용할 수 있다.
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: FULL ##basic
+    
+
+        
+
+
+
+
+
+
+
+

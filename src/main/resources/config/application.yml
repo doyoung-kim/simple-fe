@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: simple-fe
+  profiles:
+    active: local
+  banner:
+    location: "classpath:config/app-banner.txt"
+app-info:
+  build:
+    version: '@project.version@'
+    timestamp: '@app.build.timestamp@'
+logging:
+  level:  
+    com.example: debug
