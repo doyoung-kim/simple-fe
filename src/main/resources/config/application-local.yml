@@ -7,7 +7,7 @@ server:
   
 api:
   simple:
-    url: http://localhost:9320/api
+    url: http://localhost:8082/api
 
 feign:
   circuitbreaker:  # feign에서도 circuit breaker를 적용할 수 있다.
